@@ -1,0 +1,25 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; background: #1a1a24; }
+#stage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+#game {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  width: min(96vw, calc(96vh * 4 / 3));
+  height: auto;
+  aspect-ratio: 4 / 3;
+  background: #000;
+}
+#controls-hint {
+  color: #8890a0;
+  font-family: monospace;
+  font-size: 13px;
+  text-align: center;
+  padding: 0 8px;
+}
