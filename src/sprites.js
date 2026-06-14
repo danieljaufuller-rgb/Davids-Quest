@@ -212,11 +212,6 @@ const SPRITES = {
     '.KKKKKKKKKKKKK..',
     '................',
   ],
-```
-
-- [ ] **Step 2: Append part 2 of `SPRITES`** — these entries go inside the same `SPRITES = { ... }` object literal, immediately after `tile_thorns`:
-
-```js
   // ---- PLAYER: David (16x16, drawn facing RIGHT) ---------------------
   david_idle: [
     '................',
